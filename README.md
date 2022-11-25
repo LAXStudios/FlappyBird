@@ -4,7 +4,7 @@ In native Java gemachtest "FlappyBird" Spiel.
 
 
 ## Introduction
-Diesen Spiel, anglehnt an das Spiel FlappyBird, ist gemacht in Java für
+Dieses Spiel, anglehnt an das Spiel FlappyBird, ist gemacht in Java für
 meinen Infromatik Unterricht.
 ## Screenshots
 
