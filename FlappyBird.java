@@ -19,6 +19,7 @@ import javax.swing.Timer;
 public class FlappyBird implements ActionListener, MouseListener, KeyListener
 {
 
+	// Klassen 
 	public static FlappyBird flappyBird;
 
 	public final int WIDTH = 800, HEIGHT = 800;
@@ -35,8 +36,10 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 
 	public Random rand;
 
+	//Main
 	public FlappyBird()
 	{
+		//Setup
 		JFrame jframe = new JFrame();
 		Timer timer = new Timer(20, this);
 
@@ -63,6 +66,7 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 		timer.start();
 	}
 
+	//Spielfeld
 	public void addColumn(boolean start)
 	{
 		int space = 300;
@@ -81,6 +85,7 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 		}
 	}
 
+	//Render Rechtecke on Spielfeld
 	public void paintColumn(Graphics g, Rectangle column)
 	{
 		g.setColor(Color.green.darker());
