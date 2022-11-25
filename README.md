@@ -44,7 +44,7 @@ oder
 ```
 
 
-## Authors
+## Autor
 
 - [@Maximilian Peters](https://www.github.com/LAXStudios)
 
