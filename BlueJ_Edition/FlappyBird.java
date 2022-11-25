@@ -1,4 +1,4 @@
-package flappyBird;
+ 
 
 import java.awt.Color;
 import java.awt.Font;
@@ -13,7 +13,6 @@ import java.awt.event.MouseListener;
 import java.util.ArrayList;
 import java.util.Random;
 
-import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.Timer;
 
@@ -169,7 +168,6 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 
 			for (Rectangle column : columns)
 			{
-				//Durch Ziel Hindurch
 				if (column.y == 0 && bird.x + bird.width / 2 > column.x + column.width / 2 - 10 && bird.x + bird.width / 2 < column.x + column.width / 2 + 10)
 				{
 					score++;
@@ -198,7 +196,6 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 				}
 			}
 
-			//Bird ist aus dem Spielfeld heraus
 			if (bird.y > HEIGHT - 120 || bird.y < 0)
 			{
 				gameOver = true;
