@@ -37,6 +37,10 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 	public Random rand;
 
 	//Main
+	public static void main(String[] args)
+	{
+		flappyBird = new FlappyBird();
+	}
 	public FlappyBird()
 	{
 		//Setup
@@ -243,11 +247,6 @@ public class FlappyBird implements ActionListener, MouseListener, KeyListener
 		{
 			g.drawString(String.valueOf(score), WIDTH / 2 - 25, 100);
 		}
-	}
-
-	public static void main(String[] args)
-	{
-		flappyBird = new FlappyBird();
 	}
 
 	@Override
