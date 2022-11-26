@@ -10,6 +10,8 @@ meinen Infromatik Unterricht.
 
 ![App Screenshot](https://cdn.discordapp.com/attachments/1045835154414903376/1045835179794644993/image.png)
 
+![App Screenshot](https://cdn.discordapp.com/attachments/1045835154414903376/1046179853533192222/Flappy-Bird-2022-11-26-22-40-45.gif)
+
 
 ## Features
 
