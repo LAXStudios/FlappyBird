@@ -23,6 +23,8 @@ meinen Infromatik Unterricht.
 
 ## Run
 
+Öffne `CMD`
+
 Klone das Projekt (Git muss installiert sein)
 
 ```bash
